@@ -1,3 +1,9 @@
+My personal portfolio website in which I have shared my experiences skills and information regarding my current work and future projects. Do checkout the website.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
