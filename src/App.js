@@ -1,16 +1,20 @@
 import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Contactme from './components/Contactme';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi There <br></br> Sanket Teli Here!
-      </h1>
-      <h3>Skills</h3>
-      <h5>HTML,CSS</h5>
-      <h5>Advanced Javascript</h5>
-      <h5>React, Redux, Reducer</h5>
-      <h5>Express, Node.js</h5>
-      <h5>Mongoose, Axios, MongoDB</h5>
+     
+      <BrowserRouter>
+      <Routes>
+        <Route exact path="/contactme" element={<Contactme></Contactme>}></Route>
+         <Route exact path='/' element={<Home></Home>}></Route>
+      </Routes>
+      </BrowserRouter>
+      
 
     </div>
   );
